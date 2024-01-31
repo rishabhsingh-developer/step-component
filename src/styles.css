@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.App {
+  width: 600px;
+  height: 300px;
+  background-color: rgb(233, 229, 229);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.one {
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+  background-color: rgb(198, 185, 185);
+}
+.step {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+.messages {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+button {
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  color: white;
+  border: 0px;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+}
+.common {
+  background-color: #7950f2;
+  color: white;
+}
